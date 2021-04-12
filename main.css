@@ -1,0 +1,54 @@
+#main h1 {
+    text-align: center;
+  }
+  
+  #img-div {
+    border: 5px solid black;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem 5rem;
+    
+   }
+  @media (min-width: 48rem) {
+    #img-div {
+      padding: 5rem 10rem;
+    }
+  }
+  
+  .img-parent {
+    
+    text-align: center;
+    display: inline-block;
+    
+  }
+  
+  #img-div img {
+    width: 50%;
+    max-width: 56rem;
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px  black
+  
+  }
+  
+  
+  
+  #tribute-info {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  #tribute-link {
+    text-decoration: none;
+    color: rgba(34,139,34,1)
+  }
+  
+  #tux {
+    margin: 2rem auto;
+    display: block;
+  }
