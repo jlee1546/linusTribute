@@ -8,7 +8,21 @@
     text-align: center;
     margin: 0 auto;
     padding: 2rem 5rem;
+    position: relative;
+    overflow: hidden;
     
+   }
+
+   .badge {
+     background: black;
+     color: white;
+     position: absolute;
+     top: 0;
+     right: 0;
+     margin: 0;
+     width: 8rem;
+     transform: rotate(45deg) translate(2.25rem,-0.75rem);
+     
    }
   @media (min-width: 48rem) {
     #img-div {
